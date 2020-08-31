@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@font-face {
+  font-family: 'Arca-heavy';
+  src: url('../font/arca-majora-heavy/ArcaMajora3-Heavy.eot'), /* IE9+ Compat Modes */
+  url('../font/arca-majora-heavy/ArcaMajora3-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/arca-majora-heavy/ArcaMajora3-Heavy.woff') format('woff'), /* Modern browsers */
+  url('../font/arca-majora-heavy/ArcaMajora3-Heavy.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../font/arca-majora-heavy/ArcaMajora3-Heavy.svg#arca-heavy') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Arca-bold';
+  src: url('../font/arca-majora-bold/ArcaMajora3-Bold.eot'), /* IE9+ Compat Modes */
+  url('../font/arca-majora-bold/ArcaMajora3-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/arca-majora-bold/ArcaMajora3-Bold.woff') format('woff'), /* Modern browsers */
+  url('../font/arca-majora-bold/ArcaMajora3-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../font/arca-majora-bold/ArcaMajora3-Bold.svg#arca-bold') format('svg'); /* Legacy iOS */
+}
+.f-arca-heavy{
+  font-family: Arca-heavy,sans-serif;
+}
+.f-arca-bold{
+  font-family: Arca-bold,sans-serif;
+}
