@@ -1,0 +1,9 @@
+.shailan_CountdownWidget {
+  span {
+    font-size: 40px;
+    color: #fff;
+    @include media-breakpoint-down(lg){
+      font-size: 18px;
+    }
+  }
+}

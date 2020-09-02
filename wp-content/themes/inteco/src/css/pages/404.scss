@@ -1,0 +1,41 @@
+.cover-404 {
+  margin-bottom: -20px;
+  position: relative;
+  background-image: url("../../../assets/image-bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .img-full {
+    height: 1000px;
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+    h1 {
+      font-family: Arca-heavy;
+      font-size: 150px;
+      color: #fff;
+    }
+
+    .p-n-f {
+      font-weight: bold;
+      font-size: 35px;
+    }
+
+    .description {
+      font-size: 18px;
+      color: #C3E7FF;
+    }
+  }
+}

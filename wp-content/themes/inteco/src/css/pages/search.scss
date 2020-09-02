@@ -1,0 +1,27 @@
+.search-page{
+  ._search-result{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    .title{
+      color: #191919;
+      .time{
+        font-family: Arca-heavy;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-weight: 600;
+      }
+      .tipsy{
+        padding-left: 10px;
+      }
+    }
+    .author{
+      padding-left: 75px;
+      color: #959595;
+      text-transform: uppercase;
+      p{
+        padding-right: 10px;
+      }
+    }
+  }
+}

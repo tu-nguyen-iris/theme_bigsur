@@ -1,0 +1,37 @@
+.btn {
+  color: #fff;
+  font-family: Arca-bold;
+  font-size:13px ;
+  padding: 13px 23px;
+  background-color: rgb(175, 147, 143);
+  &--submit {
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 0;
+  }
+
+  &--subscriber {
+    background-color: rgb(175, 147, 143);
+    border-radius: unset;
+    font-family: Arca-heavy,sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+}
+.share-button {
+  a {
+    font-size: 30px;
+    margin-right: 13px;
+  }
+  .facebook{
+    color:#3b5999;
+  }
+  .google{
+    color:#dc4e41;
+  }
+  .pinterest{
+    color:#bd081c;
+  }
+}

@@ -5,39 +5,119 @@ header {
   left: 0;
   right: 0;
   z-index: 99;
-  &--custom {
-    max-width: 1400px;
-  }
-  .logo{
-    .logo-default{
-      max-width: 80%;
+  @include media-breakpoint-up(xl){
+    .container {
+      &--custom {
+        max-width: unset;
+        padding: 0 9%;
+      }
     }
-    .line-logo{
+  }
+  .logo {
+    .logo-default {
+      max-width: 80%;
+      margin-top: -10px;
+    }
+    .line-logo {
       background: linear-gradient(to left, rgba(179, 154, 150, 1), rgba(179, 154, 150, 0.1));
       width: 80%;
       height: 2px;
       margin-top: 10px;
     }
   }
-._menu {
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    .menu-item {
-      padding: 0 10px;
+  ._menu, ._menu_social {
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-      a {
-        font-family: "Arca-heavy", sans-serif;
+      .menu-item {
+        padding: 0 10px;
+
+        a {
+          font-family: "Arca-bold", sans-serif;
+        }
+
+        i {
+          font-size: 22px;
+        }
       }
     }
   }
+
+  ._menu_social {
+    .menu {
+      justify-content: flex-end;
+    }
+  }
+
+  ._search {
+    a {
+      padding-right: 10px;
+      font-size: 23px;
+
+      i {
+        color: #fff;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    padding-top: 20px;
+    .logo {
+      .line-logo{
+        display: none;
+      }
+      .logo-default {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .humbuger {
+    padding-top: 7px;
+  }
 }
 
-}
-._header-color{
-  background-color: #000000	;
-  //transform: translateY(100%);
-  transition: all .4s;
+._header-color {
+  height: 80px;
+  background-color: #000000;
+  transition: all .2s;
+  padding-top: 0px;
+
+  ._menu {
+    .menu {
+      height: 80px;
+      margin-bottom: 0;
+    }
+  }
+
+  ._menu_social {
+    .menu {
+      height: 80px;
+      margin-bottom: 0;
+    }
+  }
+
+  .logo {
+    .line-logo{
+      display: none;
+    }
+    .logo-default {
+      margin-top: 26px;
+      max-width: 50%;
+    }
+  }
+
+  ._search {
+    align-items: center;
+  }
+  @include media-breakpoint-down(md) {
+    height: 62px;
+    .humbuger {
+      padding-top: 25px;
+    }
+  }
+
 }

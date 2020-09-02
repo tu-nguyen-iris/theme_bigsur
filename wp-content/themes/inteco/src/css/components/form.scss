@@ -1,0 +1,73 @@
+.form-contact {
+  .form-group {
+    .form-control {
+      border: none;
+      background: #fff;
+      height: 55px;
+    }
+  }
+
+  textarea {
+    resize: none;
+    min-height: 100px;
+  }
+}
+
+.form-comming {
+  .form-group {
+    .form-control {
+      height: 70px;
+      width: 20%;
+      border-radius: unset;
+    }
+  }
+}
+
+.form-search {
+  ::placeholder {
+    color: #fff;
+    font-family: Arca-heavy;
+    font-size: 30px;
+  }
+
+  ._search-field {
+    height: 50px;
+    width: 300px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    font-family: Arca-heavy;
+    font-size: 30px;
+    color: #fff;
+  }
+  .sub-button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 30px;
+  }
+}
+._search-field_404 {
+  ::placeholder{
+    font-size: 19px;
+  }
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 300px;
+  border: none;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
+  font-family: Arca-heavy;
+  font-size: 30px;
+  color: #fff;
+
+.sub-button{
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 30px;
+}
+}
